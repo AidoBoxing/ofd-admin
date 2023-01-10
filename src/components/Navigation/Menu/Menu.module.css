@@ -1,0 +1,101 @@
+.Menu {
+    left: 0;
+    top: 0;
+    bottom: 0;
+    width: 72px;
+    height: 100%;
+    padding: 20px 10px;
+    background-image: url("../img/Background.png");
+    transition: all 300ms ease-in-out;
+}
+
+.Menu:hover {
+    width: 268px;
+    max-width: 290px;
+    transition: all 300ms ease-in-out;
+}
+
+.Menu:hover .label {
+    display:block;
+    padding-left: 5px;
+    text-align: justify;
+}
+
+.Menu:hover .homeText {
+    text-align: left;
+}
+
+.Menu:hover .logo {
+    display: flex;
+}
+
+.Menu:hover .Megakassa {
+    display: block;
+    font-family: 'Chivo';
+    padding-top: 4px;
+    padding-left: 10px;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 19px;
+    line-height: 23px;
+    color: #FFFFFF;
+}
+
+.label {
+    display: none;
+}
+
+.Menu ul {
+    padding-left: 5px;
+    list-style: none;
+}
+
+.Menu ul li {
+    margin-bottom: 24px;
+    display: flex;
+}
+
+.Menu ul li a {
+    color: rgba(255, 255, 255, 0.8);
+    font-style: normal;
+    font-weight: 600;
+    font-size: 15px;
+    line-height: 18px;
+    text-decoration: none;
+    display: flex;
+    /*flex-direction: row;*/
+    /*gap: 10px;*/
+}
+
+.Menu ul li a svg {
+    font-size: 20px;
+}
+
+.Menu ul li a:hover {
+    color: #0EB24E;
+    /*color: white;*/
+    /*text-decoration: none;*/
+    /*position: absolute;*/
+    /*!*padding: 0 20px 10px 20px;*!*/
+    /*transition: opacity .3s;*/
+}
+
+
+.homeText {
+    display: block;
+    color: rgba(255, 255, 255, 0.6);
+    font-style: normal;
+    font-weight: 200;
+    font-size: 12px;
+    line-height: 15px;
+    text-transform: uppercase;
+    margin-bottom: 24px;
+}
+
+.logo {
+    margin: 0px 5px 25px 12px;
+}
+
+.Megakassa {
+    display: none;
+}

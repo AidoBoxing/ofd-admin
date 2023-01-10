@@ -1,0 +1,96 @@
+.container {
+    display:flex;
+    align-items: flex-start;
+    gap: 16px;
+    padding: 40px 16px 0 18px;
+}
+
+.singleOption {
+    display: flex;
+    gap: 10px 20px;
+    align-items: center;
+    margin-bottom: 8px;
+    cursor: pointer;
+}
+
+.selectedValue{
+    margin-bottom: 15px;
+    border: 1px solid rgba(102, 110, 126, 0.22);
+    border-radius: 8px;
+    padding: 9px 12px 9px 12px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 310px;
+}
+
+.spanStatusTrue{
+    background: rgba(14, 178, 78, 0.08);
+    color:#0EB24E;
+    padding: 3px 10px 3px 10px;
+    border-radius: 5px;
+    width: 90px;
+    text-align: center;
+    margin-left: 10px;
+}
+
+.spanStatusFalse {
+    background: rgba(221, 226, 232, 0.6);
+    color: rgba(102, 110, 126, 0.8);
+    padding: 3px 10px 3px 10px;
+    border-radius: 5px;
+    width: 90px;
+    text-align: center;
+    margin-left: 10px;
+}
+
+.mainBlock {
+    background: #FFFFFF;
+    box-shadow: 0 2px 15px rgba(0, 0, 0, 0.12);
+    border-radius: 8px;
+    width: 310px;
+    height: 240px;
+    overflow: auto;
+    padding: 15px 15px 12px 21px;
+}
+
+::-webkit-scrollbar {
+    width: 10px;
+}
+
+::-webkit-scrollbar-thumb {
+    background: #8E8E9A;
+    opacity: 0.5;
+    border-radius: 4px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background: rgba(102, 110, 126, 0.8);
+}
+
+svg {
+    margin-left: 10px;
+}
+
+.button {
+    width: 310px;
+    height: 43px;
+    margin-top: 24px;
+    background: #0EB24E;
+    border: none;
+    box-shadow: -1px 1px 4px rgba(0, 0, 0, 0.18);
+    border-radius: 8px;
+    text-align: center;
+    color: white;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 19px;
+    font-style: normal;
+    letter-spacing: -0.165px;
+
+}
+
+.button:hover {
+    background: green;
+}
+
