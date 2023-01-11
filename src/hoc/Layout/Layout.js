@@ -4,7 +4,13 @@ import Header from "../../components/Header/Header";
 import Menu from "../../components/Navigation/Menu/Menu";
 
 class Layout extends Component {
+
+    state = {
+        hide: false
+    }
+
     render() {
+
         return (
             <div className={classes.Layout}>
 
@@ -12,13 +18,14 @@ class Layout extends Component {
 
                 {/*<div className={classes.container}>*/}
 
-                    <Menu/>
+                <Menu/>
 
-                    <main>
+                <main>
                     {this.props.children}
-                    </main>
-
+                </main>
                 {/*</div>*/}
+
+
             </div>
         )
     }

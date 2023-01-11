@@ -1,3 +1,9 @@
+.asd {
+    box-sizing:border-box;
+    width:auto;
+    max-width:100%;
+}
+
 .nextButton {
     display: flex;
     justify-content: flex-end;
@@ -44,8 +50,8 @@ input[type="checkbox"].ios8-switch {
 
 input[type="checkbox"].ios8-switch:before {
     content: "";
-    position: absolute;
     display: block;
+    position: relative;
     width: 40px; /* x*5 */
     height: 25px; /* x*3 */
     border-radius: 16px; /* x*2 */
@@ -57,8 +63,9 @@ input[type="checkbox"].ios8-switch:before {
 
 input[type="checkbox"].ios8-switch:after {
     content: "";
-    position: absolute;
     display: block;
+    position: relative;
+    top: -24px;
     width: 24px; /* x*3 */
     height: 24px; /* x*3 */
     border-radius: 16px; /* x*2 */

@@ -228,7 +228,7 @@ export function KkmRegistration() {
     return (
 
         <Container style={{
-            margin: 0
+            margin: 0,
         }}>
             <PageTransition />
             <Form id="form-data">

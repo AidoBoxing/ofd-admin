@@ -8,7 +8,7 @@ import logo from "../img/logo.png"
 
 const mainLink = [
     {to: '/', label: 'ГлавнаяСтраница', icon: <RiHomeLine/>},
-    {to: '/usersList', label: 'ПанельАдминистратора', icon: < BiSearch/>}]
+    {to: '/adminPanel', label: 'ПанельАдминистратора', icon: < BiSearch/>}]
 
 const registrationLink = [
     {to: '/gnsRegistration', label: 'РегистрацияГНС', icon: <BsFillPersonFill/>},

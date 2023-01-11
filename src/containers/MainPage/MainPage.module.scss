@@ -1,47 +1,69 @@
-// SASS Variables.
-$text: #fff;
-$link: #e34234;
-$link-hover: #ba160c;
-$background: #00356B;
-
-canvas {
-  display: block;
-  vertical-align: bottom;
-}
-
-#particles-js {
-  position: absolute;
+.container {
   width: 100%;
   height: 100%;
-  background: $background
+  margin: 0;
+  //overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  flex-wrap: nowrap;
 }
 
-.text {
-  position: absolute;
-  top: 50%;
-  right: 50%;
-  transform: translate(50%,-50%);
-  color: $text;
-  max-width: 90%;
-  padding: 2em 3em;
-  background: rgba(0, 0, 0, 0.4);
-  text-shadow: 0px 0px 2px #131415;
-  font-family: 'Open Sans', sans-serif;
+.wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
-h1 {
-  font-size: 2.25em;
+.title {
+  display: flex;
+}
+
+.title .text1 {
+  transform: matrix(1, -0.03, 0.03, 1, 0, 0);
+  text-align: center;
+  background: #0EB24E;
+  font-family: 'Sofia Sans';
+  font-style: normal;
+  font-weight: 900;
+  font-size: 37px;
+  line-height: 118.6%;
+  text-transform: uppercase;
+  color: #191747;
+  padding: 5px;
+  margin-right: 10px;
+}
+
+.title .text2 {
+  font-family: 'Sofia Sans';
+  font-style: normal;
   font-weight: 700;
-  letter-spacing: -1px;
+  font-size: 37px;
+  line-height: 118.6%;
+  text-transform: uppercase;
+  color: #ffffff;
 }
 
-a,
-a:visited {
-  color: $link;
-  transition: 0.25s;
+#btns{
+  display: flex;
 }
 
-a:hover,
-a:focus {
-  color: $link-hover;
+.btn {
+  width: 248px;
+  height: 64px;
+  background: #FFFFFF;
+  outline: none;
+  border-radius: 10px;
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 22px;
+  margin: 20px;
 }
+
+.btn:hover {
+  background: #0EB24E;
+  color: white;
+}
+
